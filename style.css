@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+nav, nav .logo, nav ul {
+    display: flex;
+}
+
+nav {
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f2937;
+    height: 80px;
+    color: white;
+    padding: 0 50px;
+}
+
+nav .logo {
+    gap: 20px;
+    align-items: center;
+}
+
+nav .logo > h1, nav ul li {
+    font-family: 'Tilt Neon', sans-serif;
+    list-style: none;
+}
+
+nav ul {
+    gap: 50px;
+}
