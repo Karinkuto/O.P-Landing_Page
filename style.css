@@ -44,7 +44,7 @@ nav ul {
 	height: 400px;
 	color: white;
 	justify-content: center;
-	gap: 30px;
+	gap: 100px;
 	padding-top: 55px;
 }
 
@@ -52,7 +52,12 @@ nav ul {
 	display: flex;
 	flex-direction: column;
 	gap: 20px;
-	width: 400px;
+	width: 450px;
+}
+
+.hero > img{
+    width: 500px;
+    height: max-content;
 }
 
 .hero_text h1 {
@@ -71,4 +76,43 @@ nav ul {
 	border-radius: 10px;
 	font-size: 16px;
     text-decoration: none;
+}
+
+.feat{
+    height: 400px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.feat .container{
+    display: flex;
+    width: 65%;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.feat .box{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width:170px;
+    justify-content: center;
+}
+.feat .img{
+    height: 170px;
+    width: 170px;
+    background-color: white;
+    border-radius: 15px;
+    border: 3px solid cornflowerblue;
+}
+
+.feat .container .box p{
+    
+    text-align: center;
+    text-justify: inter-word;
+    color: rgb(105, 105, 105);
 }
